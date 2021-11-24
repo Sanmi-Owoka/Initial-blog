@@ -21,8 +21,8 @@
     <nav class="navbar">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item" href="/">
-                    <strong>Blog</strong>
+                <a class="navbar-item" href="{% url 'frontpage' %} ">
+                    <strong><em>Blog</em></strong>
                 </a>
                 <span class="navbar-burger burger" data-target="navbarMenu">
                     <span></span>
@@ -36,10 +36,6 @@
                     <div class="navbar-item">
                         <form method="get" action="">
                             <div class="control has-icons-left">
-                                <input class="input is-rounded" name="query" type="text" placeholder="Search">
-                                <span class="icon is-left">
-                                    <i class="fa fa-search"></i>
-                                </span>
                             </div>
                         </form>
                     </div>

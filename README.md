@@ -8,4 +8,4 @@
 - The admin can remove and delete user and can add user.
 - For registration a user is required to fill the form accordingly and create and enter a password to have access to the dashboard.
 - From the frontpage users can register by clicking register in the navbar or login for user's that are already registered.
-- A user can only register once.
+- fA user can only register once.
