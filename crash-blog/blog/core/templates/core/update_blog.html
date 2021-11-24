@@ -1,0 +1,24 @@
+ {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'freedomspace/style.css' %}"> {% block content %}
+<html>
+
+<head>
+    <title>Blogs</title>
+</head>
+
+<body>
+    <h1 class="mt-4">Edit Blogs</h1>
+
+    {% include 'core/messages.html' %}
+    <form action="" method="POST">
+        {% csrf_token %} {{ form.as_p }}
+        <input type="submit" value="Edit Post" />
+    </form>
+    <br/><br/>
+
+
+</body>
+
+</html>
+
+{% endblock %}
